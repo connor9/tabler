@@ -3,7 +3,10 @@
 	<div class="container">
 		{% include layout/navbar-logo.html class="d-none-navbar-horizontal" %}
 
-		<div class="navbar-collapse collapse">
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-primary-menu" aria-controls="navbar-primary-menu" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+		 </button>
+		<div class="navbar-collapse collapse" id="navbar-primary-menu">
 			<h6 class="navbar-heading">Navigation</h6>
 			{% include layout/navbar-menu.html %}
 
